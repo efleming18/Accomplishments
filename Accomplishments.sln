@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Accomplishments", "Accomplishments\Accomplishments.shproj", "{73034018-415B-45CB-8277-B2E8DD37A250}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accomplishments.Droid", "Droid\Accomplishments.Droid.csproj", "{658F2E86-25B3-48F5-9C25-B3DD14ED7BCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accomplishments.UITests", "UITests\Accomplishments.UITests.csproj", "{15D000E2-3D96-4BE8-8CE5-A935D376F94A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15D000E2-3D96-4BE8-8CE5-A935D376F94A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15D000E2-3D96-4BE8-8CE5-A935D376F94A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15D000E2-3D96-4BE8-8CE5-A935D376F94A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15D000E2-3D96-4BE8-8CE5-A935D376F94A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{658F2E86-25B3-48F5-9C25-B3DD14ED7BCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{658F2E86-25B3-48F5-9C25-B3DD14ED7BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{658F2E86-25B3-48F5-9C25-B3DD14ED7BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{658F2E86-25B3-48F5-9C25-B3DD14ED7BCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
