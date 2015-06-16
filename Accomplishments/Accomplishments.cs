@@ -11,14 +11,32 @@ namespace Accomplishments
 			// The root page of your application
 			MainPage = new ContentPage {
 				Content = new StackLayout {
-					VerticalOptions = LayoutOptions.Center,
+					VerticalOptions = LayoutOptions.CenterAndExpand,
 					Children = {
 						new Label {
 							XAlign = TextAlignment.Center,
-							Text = "This is the Accomplishments App - Fleming XSA"
+							Text = "Welcome to the Accomplishments App!"
+						},
+						new StackLayout {
+							VerticalOptions = LayoutOptions.CenterAndExpand,
+							Orientation = StackOrientation.Horizontal,
+							Children = {
+								new Entry {
+									HorizontalOptions = LayoutOptions.StartAndExpand,
+									Placeholder = "Workout      "
+								},
+								new Entry {
+									HorizontalOptions = LayoutOptions.CenterAndExpand,
+									Placeholder = "Max Weight"
+								},
+								new Entry {
+									HorizontalOptions = LayoutOptions.EndAndExpand,
+									Placeholder = "Max Reps"
+								},
+							},
 						}
-					}
-				}
+					},
+				},
 			};
 		}
 
