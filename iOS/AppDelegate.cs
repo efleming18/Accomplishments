@@ -19,7 +19,7 @@ namespace Accomplishments.iOS
 			Xamarin.Calabash.Start();
 			#endif
 
-			LoadApplication (new App ());
+			LoadApplication (new Views.App ());
 
 			return base.FinishedLaunching (app, options);
 		}

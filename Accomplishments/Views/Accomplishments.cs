@@ -2,7 +2,7 @@
 
 using Xamarin.Forms;
 
-namespace Accomplishments
+namespace Accomplishments.Views
 {
 	public class App : Application
 	{

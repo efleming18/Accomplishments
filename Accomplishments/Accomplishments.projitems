@@ -9,6 +9,9 @@
     <Import_RootNamespace>Accomplishments</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)Accomplishments.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Accomplishments.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Views\" />
   </ItemGroup>
 </Project>
